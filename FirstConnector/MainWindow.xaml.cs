@@ -22,7 +22,7 @@ namespace FirstConnector
 			SecurityPicker.MarketDataProvider = connector;// Data with best price
 		}
 
-		private void Button_Click(object sender, RoutedEventArgs e)
+		private void ButtonConnect_Click(object sender, RoutedEventArgs e)
 		{
 			if (connector.Configure(this)) // Configuration 
 			{
